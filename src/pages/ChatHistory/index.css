@@ -1,0 +1,4 @@
+.right-text {
+    display: flex;
+    justify-content: end;
+}

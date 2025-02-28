@@ -1,0 +1,23 @@
+.containerEffect:hover .hoverContainerEffect{
+    transform: translateY(0%);
+}
+
+.containerEffect:hover .invertHoverContainerEffect{
+    transform: translateY(0%);
+}
+
+.containerEffect:hover {
+    @apply text-white;
+}
+
+.hoverContainerEffect {
+    transform: translateY(100%);
+}
+
+.invertHoverContainerEffect {
+    transform: translateY(-100%);
+}
+
+.inputRadio {
+    @apply flex items-center gap-1 ;
+}

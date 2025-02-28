@@ -1,0 +1,15 @@
+.seeMoreContainer:hover .hoverDivEffect{
+    transform: translate(0%, 0%);
+}
+
+.seeMoreContainer:hover .hoverDiv2Effect{
+    transform: translate(0%, 0%);
+}
+
+.hoverDivEffect {
+    transform: translate(-100%, 100%);
+}
+
+.hoverDiv2Effect {
+    transform: translate(100%, -100%);
+}
