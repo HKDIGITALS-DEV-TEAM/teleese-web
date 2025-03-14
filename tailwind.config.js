@@ -9,6 +9,7 @@ export default {
       colors: {
         "usual-gray": "#F5F1F1",
         "usual-green": "#0FB74B",
+        "usual-blue": "#01A2DC",
         "usual-purple": "#4F3FF0",
         "dark-purple": "#30325E",
         "light-purple": "#E9E7FD",

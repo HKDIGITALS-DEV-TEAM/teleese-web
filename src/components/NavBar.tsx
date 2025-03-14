@@ -1,4 +1,3 @@
-import { useKeycloak } from "@react-keycloak/web";
 import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 // import { LocalStorageManagement } from "../utils/LocalStorageManagement";
@@ -7,7 +6,6 @@ import { NavLink, useLocation } from "react-router-dom";
 function NavBar() {
 
     const currentPath = useLocation().pathname
-    const { keycloak } = useKeycloak();
 
     const [navBar, setNavBar] = useState(
         [
@@ -69,7 +67,7 @@ function NavBar() {
                 ))}
             </div>
             <div className="flex flex-col gap-8">
-                <img className="w-8 h-8 cursor-pointer" src="/icons/logout.svg" alt="logout" onClick={() => keycloak.logout()} />
+                <img className="w-8 h-8 cursor-pointer" src="/icons/logout.svg" alt="logout" onClick={() => null} />
                 <img onClick={() => toggleTheme(false)} className="w-8 h-8 cursor-pointer" src="/icons/sun.svg" alt="light" />
                 <img onClick={() => toggleTheme(true)} className="w-8 h-8 cursor-pointer" src="/icons/moon.svg" alt="dark" />
             </div>
